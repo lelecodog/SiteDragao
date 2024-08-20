@@ -1,0 +1,95 @@
+  /*--estilo geral--*/
+
+  .dragoes{
+    padding: 40px 4%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  .imagem{
+  padding: 40px 1%;
+
+  }
+
+  .titulo{
+    font-size: 40px;
+    text-align: center;
+  }
+  .texto h3{
+    font-size: 34px;
+    text-align: center;
+  }
+
+  hr {
+    border: 0;
+    height: 1px;
+    background: #000000; /* Cor da linha */
+    margin: 20px 0; /* Espaçamento acima e abaixo da linha */
+  }
+
+  body {
+      font-family: Arial, sans-serif;
+      background-color: rgba(194, 21, 30, 0.986);
+      color: aliceblue;
+      margin: 0;
+      padding: 0;
+  }
+    
+    header {
+      background-color: #000000;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+    
+    nav ul li a {
+      color: aliceblue;
+      text-decoration: none;
+    }
+    
+    nav ul li :hover{
+      color: rgb(255, 0, 0);
+
+    }
+    main, section {
+      padding: 20px;
+    }
+    
+    footer {
+      background-color: #000000;
+      text-align: center;
+      padding: 20px;
+    }
+
+    a {
+      color: #000000;
+      text-decoration: none;
+      padding: 40px;
+    }
+
+    @media screen and (max-width: 900px) {
+      .dragoes {
+          flex-direction: column;
+          align-items: center;
+      }
+
+      .imagem{
+        padding: 40px 5%;
+      }
+
+      nav ul li {
+        display: block;
+        margin: 15px 15px;
+      }
+    }
